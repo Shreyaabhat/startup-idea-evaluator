@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "Startup Idea Evaluator",
+    "slug": "startup-idea-evaluator",
+    "scheme": "startupideaevaluator",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "backgroundColor": "#6C5CE7"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "plugins": ["expo-router"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.example.startupideaevaluator"
+    },
+    "android": {
+      "package": "com.example.startupideaevaluator",
+      "adaptiveIcon": {
+        "backgroundColor": "#6C5CE7"
+      }
+    },
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}
